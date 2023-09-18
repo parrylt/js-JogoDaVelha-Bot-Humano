@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo contra Bot</title>
+    <script src="./jsBOTIDIOTA.js"></script>
+    <link rel="stylesheet" href="styleBOTIDIOTA.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <br>
+    <h1>Jogo da Velha - X1 Contra Bot Idiota</h1>
+        <br><br><br>
+        <div class="grid1">
+            <input hidden onclick="x1()" type="text" size="1" id="jogo1" value="">
+            <input hidden onclick="x2()" type="text" size="1" id="jogo2" value="">
+            <input hidden onclick="x3()" type="text" size="1" id="jogo3" value="">
+        </div>
+        <div class="grid2">
+            <input hidden onclick="x4()" type="text" size="1" id="jogo4" value="">
+            <input hidden onclick="x5()" type="text" size="1" id="jogo5" value="">
+            <input hidden onclick="x6()" type="text" size="1" id="jogo6" value="">
+        </div>
+        <div class="grid3">
+            <input hidden onclick="x7()" type="text" size="1" id="jogo7" value="">
+            <input hidden onclick="x8()" type="text" size="1" id="jogo8" value="">
+            <input hidden onclick="x9()" type="text" size="1" id="jogo9" value="">
+        </div>
+        <br><br><br>
+        <div class="jogar">
+            <a href="../index.html"><input class="botao" type="button" value="Voltar"></a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input class="botao" onclick="comeca()" type="button" value="Jogar"> 
+        </div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95vw;
+  height: 95vh;
+  flex-direction: column;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    display: block;
+    font-weight: bolder;
+    align-items: center;
+    color: #1899D6;
+    font-family: 'Share Tech Mono', monospace;
+}
+.botoes{
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 50vh;
+  height: 7vh;
+}
+.botoes:hover{
+  background-color: #000;
+  border: 2px solid #1899D6;
+  color: #1899D6;
+  font-size: 18px;
+}
+.botoes:after {
+  background-clip: padding-box;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.botoes:main,
+.botoes:focus {
+  user-select: auto;
+}
+
+.botoes:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.botoes:disabled {
+  cursor: auto;
+}
